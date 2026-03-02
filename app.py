@@ -2,6 +2,7 @@ import streamlit as st
 
 from src.state import init_state
 from src.ui import (
+    apply_theme,
     render_header,
     render_footer_nav,
     page_basic_info,
@@ -24,6 +25,7 @@ st.set_page_config(
 )
 
 init_state(total_pages=len(PAGES))
+apply_theme()
 
 # Header + progress
 render_header(PAGES)
