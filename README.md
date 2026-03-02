@@ -5,6 +5,7 @@ A simple Streamlit web app that helps anyone generate a clean GitHub Profile REA
 ## Features
 - 4-step wizard (Basic Info → Social Links → Skills → Preview/Generate)
 - Previous/Next navigation in the footer
+- Dark mode botton in header
 - Skill selection via icons
 - Empty fields are automatically excluded from the generated README
 - Copy-to-clipboard + download README.md
